@@ -1,0 +1,64 @@
+
+
+.home_container{
+    background-color: var(--color-primary);
+    height: 100vh;
+    width: 100vw;
+}
+
+.profile_image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.top-nav{
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: 5vh;
+    width: 70vw;
+    margin-left: 15vw;
+
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    gap: 0.8rem;
+    border-radius: 2rem;
+    backdrop-filter: blur(15px);
+
+}
+
+
+
+.side-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    width: 15vw;
+    margin-top: 20vh;
+    margin-left: 10px;
+
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    gap: 0.8rem;
+    border-radius: 2rem;
+    backdrop-filter: blur(15px);
+
+}
+
+.hero{
+    background-color: azure;
+    height: 90vh;
+    width: 70vw;
+    margin-left: 20vw;
+    margin-top: 5vh;
+}
